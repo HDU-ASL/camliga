@@ -1,8 +1,5 @@
 # Bidirectional Joint Estimation of Optical Flow and Scene Flow with Gaussian-Guided Attention
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-optical-flow-and-scene-flow-with/optical-flow-estimation-on-kitti-2015)](https://paperswithcode.com/sota/optical-flow-estimation-on-kitti-2015?p=learning-optical-flow-and-scene-flow-with)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-optical-flow-and-scene-flow-with/scene-flow-estimation-on-kitti-2015-scene-1)](https://paperswithcode.com/sota/scene-flow-estimation-on-kitti-2015-scene-1?p=learning-optical-flow-and-scene-flow-with)
-
 This project provides the official implementation of 'Bidirectional Joint Estimation of Optical Flow and Scene Flow with Gaussian-Guided Attention'.
 
 ## Abstract
