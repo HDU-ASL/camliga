@@ -56,7 +56,7 @@ NG-RANSAC is also required if you want to evaluate on KITTI. Please follow [http
 Then, run the following script to launch a demo of estimating optical flow and scene flow from a pair of images and point clouds:
 
 ```
-python demo.py --model camliraft --weights /path/to/camliraft/checkpoint.pt
+python demo.py --model camliga --weights /path/to/checkpoint.pt
 ```
 
 ## Evaluation
@@ -69,7 +69,7 @@ First, download and preprocess the dataset (see `preprocess_flyingthings3d_subse
 python preprocess_flyingthings3d_subset.py --input_dir your_file_path/data/flyingthings3d_subset
 ```
 
-Then, download the pretrained weights ft3d.pt and save it to `checkpoints/ft3d.pt`.
+Then, download the pretrained weights [ft3d.pt](https://drive.google.com/file/d/1KbGQagoVlPwVf94p62iqVQ9oituMXOUx/view?usp=drive_link) and save it to `checkpoints/ft3d.pt`.
 
 Now you can reproduce the results :
 
@@ -113,7 +113,7 @@ datasets/kitti_scene_flow
     ├── semantic_ddr
 ```
 
-Then, download the pretrained weights kitti.pt and save it to `checkpoints/kitti.pt`.
+Then, download the pretrained weights [kitti.pt](https://drive.google.com/file/d/15omp0R7W3iRBABC-prLcw599mnC-ovCI/view?usp=drive_link) and save it to `checkpoints/kitti.pt`.
 
 
 ```
@@ -148,12 +148,12 @@ datasets/sintel
     └── training
 ```
 
-Then, download the pretrained weights sintel.pt and save it to `checkpoints/sintel.pt`.
+Then, download the pretrained weights [ft3d_60E.pt](https://drive.google.com/file/d/1MBZj4A04U7oEbMWa_7TSk6GGx5H6sr9x/view?usp=drive_link) and save it to `checkpoints/ft3d_60E.pt`.
 
 Now you can reproduce the results:
 
 ```
-python eval_sintel.py testset=sintel model=camliga ckpt.path=checkpoints/sintel.pt
+python eval_sintel.py testset=sintel model=camliga ckpt.path=checkpoints/ft3d_60E.pt
 ```
 
 ## Training
