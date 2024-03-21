@@ -48,6 +48,7 @@ Download the ResNet-50 pretrained on ImageNet-1k:
 
 ```
 wget https://download.pytorch.org/models/resnet50-11ad3fa6.pth
+mkdir pretrain
 mv resnet50-11ad3fa6.pth pretrain/
 ```
 
