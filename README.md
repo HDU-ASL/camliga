@@ -176,3 +176,6 @@ Finetune the model on KITTI using the weights trained on FlyingThings3D:
 python train.py trainset=kitti valset=kitti model=camliga ckpt.path=checkpoints/ft3d.pt
 ```
 
+## Acknowledgement
+
+The code is built based on [CamLiFlow](https://github.com/MCG-NJU/CamLiFlow). We thank the authors for their contributions.
